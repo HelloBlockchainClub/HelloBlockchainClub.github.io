@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://HelloBlockchainClub.github.io</id>
     <title>你好区块链</title>
-    <updated>2020-02-29T11:09:14.689Z</updated>
+    <updated>2020-02-29T11:23:04.087Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://HelloBlockchainClub.github.io"/>
     <link rel="self" href="https://HelloBlockchainClub.github.io/atom.xml"/>
@@ -10,6 +10,17 @@
     <logo>https://HelloBlockchainClub.github.io/images/avatar.png</logo>
     <icon>https://HelloBlockchainClub.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 你好区块链</rights>
+    <entry>
+        <title type="html"><![CDATA[【项目推荐】快速获取60+交易所的交易接口项目，拿走不谢]]></title>
+        <id>https://HelloBlockchainClub.github.io/program_xchange/</id>
+        <link href="https://HelloBlockchainClub.github.io/program_xchange/">
+        </link>
+        <updated>2020-02-29T11:10:32.000Z</updated>
+        <summary type="html"><![CDATA[<p>项目起始于2012年，项目基于Java开发，已经接入了世界上60+交易所的比特币和莱特币的交易接口。只需要通过maven引用，即可快速开发。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>项目起始于2012年，项目基于Java开发，已经接入了世界上60+交易所的比特币和莱特币的交易接口。只需要通过maven引用，即可快速开发。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[京东区块链]]></title>
         <id>https://HelloBlockchainClub.github.io/jing-dong-qu-kuai-lian/</id>
