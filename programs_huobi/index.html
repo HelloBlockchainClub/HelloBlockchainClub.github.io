@@ -3,7 +3,7 @@
     <meta charset="utf-8"/>
 <meta name="description" content=""/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>公链 | 你好区块链</title>
+<title>火币公链 | 你好区块链</title>
 <link rel="shortcut icon" href="https://HelloBlockchainClub.github.io/favicon.ico?v=1582972672678">
 <link href="https://cdn.bootcss.com/font-awesome/5.11.2/css/all.css" rel="stylesheet">
 <link rel="stylesheet" href="https://HelloBlockchainClub.github.io/styles/main.css">
@@ -30,11 +30,11 @@
 
 
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 </head>
 <body>
 <div class="main gt-bg-theme-color-first">
-    <div class="main-content">
-        <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg">
     <div class="navbar-brand">
         <img class="user-avatar" src="/images/avatar.png" alt="头像">
         <div class="site-name gt-c-content-color-first">
@@ -83,24 +83,28 @@
         </div>
     </div>
 </nav>
-        <div class="current-tag-container">
-            <h2 class="title gt-c-content-color-first">
-                #公链
-            </h2>
-        </div>
-        <div class="post-list-container">
-    <div class="post-inner">
-        
-            <div class="post gt-bg-theme-color-second">
-                <div class="post-left">
-                    <div>
-                        
-                        <a href="https://HelloBlockchainClub.github.io/programs_huobi/">
-                            <span class="post-title gt-c-content-color-first">火币公链</span>
+    <div class="post-container">
+        <div class="post-detail gt-bg-theme-color-second">
+            <article class="gt-post-content">
+                <h2 class="post-title">
+                    火币公链
+                </h2>
+                <div class="post-info">
+                    <time class="post-time gt-c-content-color-first">
+                        · 2020-02-29 ·
+                    </time>
+                    
+                        <a href="https://HelloBlockchainClub.github.io/IRYGqfG8R/" class="post-tags">
+                            # 公链
                         </a>
-                    </div>
-                    <div class="gt-post-content post-abstract gt-c-content-color-second">
-                        <blockquote>
+                    
+                        <a href="https://HelloBlockchainClub.github.io/e63mxQ9A3f/" class="post-tags">
+                            # 金融链
+                        </a>
+                    
+                </div>
+                <div class="post-content">
+                    <blockquote>
 <p>火币公链是 火币集团 和 Nervos Foundation 联合开发的高性能公链。它基于 Muta、CKB-VM、Overlord、Nervos-p2p 等开源组件深度定制，并面向金融应用的场景进行了扩展与优化。<br>
 项目链接：<a href="https://github.com/HuobiGroup/huobi-chain">https://github.com/HuobiGroup/huobi-chain</a></p>
 </blockquote>
@@ -123,36 +127,45 @@
 </tr>
 </tbody>
 </table>
+<!-- more -->
+<h1 id="详细介绍">详细介绍</h1>
+<p>The next generation high performance public chain for financial infrastructure.</p>
+<p>火币公链是 火币集团 和 Nervos Foundation 联合开发的高性能公链。它基于 Muta、CKB-VM、Overlord、Nervos-p2p 等开源组件深度定制，并面向金融应用的场景进行了扩展与优化。</p>
+<p>火币公链目前的主要技术特征有：共识算法采用自适应流水线算法提高交易吞吐量；采用聚合签名技术降低共识算法延迟；使用基于账户的 CKB-VM 实现编译器和硬件友好的高性能智能合约虚拟机；内置一等资产类型，对用户资产采用内置服务管理，大幅提高安全性、通用性并降低复杂度；支持原生跨链协议，火币公链、Nervos CKB 和基于火币公链或 Muta 技术开发的侧链可以直接实现跨链；支持高灵活性的 service 定制，来适应不同业务场景；支持合约开发，赋能去中心化应用。</p>
+<p>在面向金融应用优化方面，火币公链支持或在未来计划支持交易确定性回执、单账号交易并发处理、任意资产支付交易手续费、第三方代付手续费、金融行业 DSL 执行环境等区别于大多数公链的特性。此外，火币公链还将提供可插拔的监管组件，根据应用场景可选择地对合约部署、运行，资产持有与转移，KYC 与 AML 等进行监管对接。</p>
+<h2 id="核心功能">核心功能</h2>
+<ul>
+<li><strong>共识和执行完全并行</strong></li>
+</ul>
+<p>火币公链采用 Overlord 共识算法，其设计目标是成为能够支持上百个共识节点，满足数千笔每秒的交易处理能力，且交易延迟不超过数秒的 BFT 共识算法。Overlord 的核心思想是解耦交易定序与状态共识，从而实现共识和执行完全并行，极大提高整条链的交易吞吐量。</p>
+<ul>
+<li><strong>内置跨链能力</strong></li>
+</ul>
+<p>采用 FCA 实例化的 UDT 具备原生跨链功能，火币公链与其侧链，以及火币公链与 Nervos CKB 公链之间都可以采用这种跨链协议实现去中心化跨链。<br>
+我们采用去中心化 relay 的方式传递跨链证明，relayer 可以是侧链 validator，也可以是其他第三方用户。侧链之间可以不依赖火币公链或 Nervos CKB 实现直接的跨链功能。</p>
+<ul>
+<li><strong>可灵活定制的 service</strong></li>
+</ul>
+<p>Service 是 Muta 框架中用于扩展的抽象层，用户可以基于 Service 定义区块治理、添加 VM、或实现一个 dapp。当前火币公链测试链基于 Muta 框架内置了四个 build-in service： asset service，risc-v service， metadata service， node manager service。未来火币公链将会通过 service 添加更多的功能特性，满足应用需求和监管需求。未来火币公链的侧链在实现高性能的特定业务时，也可复用这些 service。</p>
+<ul>
+<li><strong>应用开发</strong></li>
+</ul>
+<p>用户在当前的测试网上可以发行自己的代币，也可以通过合约开发去中心化的应用。目前支持 C 语言编写合约，合约将被编译成 RISC-V 代码，动态部署到链上。后续 Huobi Chain 将会支持更多的合约编程语言，进一步完善开发者的体验。</p>
 
-                    </div>
-                    <div class="post-info">
-                        <time class="post-time gt-c-content-color-first">
-                            发布于 · 2020-02-29 ·
-                        </time>
-                        
-                            <a href="https://HelloBlockchainClub.github.io/IRYGqfG8R/" class="post-tag">
-                                # 公链
-                            </a>
-                        
-                            <a href="https://HelloBlockchainClub.github.io/e63mxQ9A3f/" class="post-tag">
-                                # 金融链
-                            </a>
-                        
-                    </div>
                 </div>
-                
-                    <a href="https://HelloBlockchainClub.github.io/programs_huobi/" class="post-feature-image"
-                       style="background-image: url('https://HelloBlockchainClub.github.io/post-images/programs_huobi.png')">
-                    </a>
-                
+            </article>
+        </div>
+
+        
+            <div class="next-post">
+                <div class="next gt-c-content-color-first">下一篇</div>
+                <a href="https://HelloBlockchainClub.github.io/about/" class="post-title gt-a-link">
+                    关于你好区块链
+                </a>
             </div>
         
-    </div>
-</div>
-        <div class="pagination-container">
-    
-    
-</div>
+
+        
 
         <div class="site-footer gt-c-content-color-first">
     <div class="slogan gt-c-content-color-first">分享有趣的区块链项目！</div>
@@ -181,6 +194,7 @@
 <script>
     hljs.initHighlightingOnLoad()
 </script>
+
 
     </div>
 </div>

@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://HelloBlockchainClub.github.io</id>
     <title>你好区块链</title>
-    <updated>2020-02-29T10:33:46.589Z</updated>
+    <updated>2020-02-29T10:37:55.604Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://HelloBlockchainClub.github.io"/>
     <link rel="self" href="https://HelloBlockchainClub.github.io/atom.xml"/>
@@ -12,13 +12,13 @@
     <rights>All rights reserved 2020, 你好区块链</rights>
     <entry>
         <title type="html"><![CDATA[火币公链]]></title>
-        <id>https://HelloBlockchainClub.github.io/di-001-qi-huo-bi-gong-lian/</id>
-        <link href="https://HelloBlockchainClub.github.io/di-001-qi-huo-bi-gong-lian/">
+        <id>https://HelloBlockchainClub.github.io/programs_huobi/</id>
+        <link href="https://HelloBlockchainClub.github.io/programs_huobi/">
         </link>
         <updated>2020-02-29T10:18:20.000Z</updated>
-        <summary type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://HelloBlockchainClub.github.io/post-images/1582972318247.png" alt="" loading="lazy"></figure>
-<blockquote>
-<p>项目链接：<a href="https://github.com/HuobiGroup/huobi-chain">https://github.com/HuobiGroup/huobi-chain</a></p>
+        <summary type="html"><![CDATA[<blockquote>
+<p>火币公链是 火币集团 和 Nervos Foundation 联合开发的高性能公链。它基于 Muta、CKB-VM、Overlord、Nervos-p2p 等开源组件深度定制，并面向金融应用的场景进行了扩展与优化。<br>
+项目链接：<a href="https://github.com/HuobiGroup/huobi-chain">https://github.com/HuobiGroup/huobi-chain</a></p>
 </blockquote>
 <h1 id="项目简介">项目简介</h1>
 <table>
@@ -40,9 +40,9 @@
 </tbody>
 </table>
 ]]></summary>
-        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://HelloBlockchainClub.github.io/post-images/1582972318247.png" alt="" loading="lazy"></figure>
-<blockquote>
-<p>项目链接：<a href="https://github.com/HuobiGroup/huobi-chain">https://github.com/HuobiGroup/huobi-chain</a></p>
+        <content type="html"><![CDATA[<blockquote>
+<p>火币公链是 火币集团 和 Nervos Foundation 联合开发的高性能公链。它基于 Muta、CKB-VM、Overlord、Nervos-p2p 等开源组件深度定制，并面向金融应用的场景进行了扩展与优化。<br>
+项目链接：<a href="https://github.com/HuobiGroup/huobi-chain">https://github.com/HuobiGroup/huobi-chain</a></p>
 </blockquote>
 <h1 id="项目简介">项目简介</h1>
 <table>
