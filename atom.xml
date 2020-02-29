@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://HelloBlockchainClub.github.io</id>
     <title>你好区块链</title>
-    <updated>2020-02-29T10:43:42.647Z</updated>
+    <updated>2020-02-29T10:57:57.957Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://HelloBlockchainClub.github.io"/>
     <link rel="self" href="https://HelloBlockchainClub.github.io/atom.xml"/>
@@ -10,6 +10,17 @@
     <logo>https://HelloBlockchainClub.github.io/images/avatar.png</logo>
     <icon>https://HelloBlockchainClub.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 你好区块链</rights>
+    <entry>
+        <title type="html"><![CDATA[京东区块链]]></title>
+        <id>https://HelloBlockchainClub.github.io/jing-dong-qu-kuai-lian/</id>
+        <link href="https://HelloBlockchainClub.github.io/jing-dong-qu-kuai-lian/">
+        </link>
+        <updated>2020-02-29T10:47:52.000Z</updated>
+        <summary type="html"><![CDATA[<p>专为企业应用设计的区块链框架系统，适用多种通用业务场景，秉承简单易用、灵活高效的设计理念，满足企业积木化按需定制，让企业快速接入区块链世界，重塑商业未来！</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>专为企业应用设计的区块链框架系统，适用多种通用业务场景，秉承简单易用、灵活高效的设计理念，满足企业积木化按需定制，让企业快速接入区块链世界，重塑商业未来！</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[火币公链]]></title>
         <id>https://HelloBlockchainClub.github.io/programs_huobi/</id>
